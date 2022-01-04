@@ -36,10 +36,10 @@
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
-        // example: 
-        createCollectable(type.steve, 200, 170, 6, 0.7);
-        
-        
+        // example: TODO # 2
+        createCollectable(type.steve, 200, 170, 6, 0.7); //worth 30 points
+        createCollectable(type.db, 500,300, 4, 1); // worth 10 points
+        createCollectable(type.kennedi, 700,100,); // worth 100 points
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////

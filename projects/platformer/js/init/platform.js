@@ -36,12 +36,15 @@
          */
         createPlatform(0, game.world.height - 32, 3, 2);    // DO NOT DELETE
 
-        // example:
-        createPlatform(400, 250);
-        createPlatform(170, 460, 0.5);
+        // example: Todo #1
+        //createPlatform(50, 450); normal platform
+        createPlatform(0, 550, 0.5);
+        createPlatform(220, 500, 0.5); //small horizontal platform(50% the normal width)
+        createPlatform(450, 500, 0.3, 10); //tall vertical wall (30% the normal width, 10x the height)
+        createPlatform(650,600,0.3);
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
     }
     platform.init = init;
-})(window);
+})(window)
