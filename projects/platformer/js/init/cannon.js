@@ -27,8 +27,9 @@
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
         // example: 
-        createCannon("top", 450);
-        
+        createCannon("top", 400); //a canon on the tope of the screen, located at x=450
+        createCannon("left", 250, 1000); // a canon on the left side of the screen, located at y=300, with a 1 second delay (1000ms)
+        createCannon("right", 200,4000)
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
